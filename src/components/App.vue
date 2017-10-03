@@ -21,6 +21,9 @@
   h3 2017.10.6 Gotanda.js
 
   h4 Simple Counter Examples
+
+  p
+    a(href="https://syumai.github.io/react-vue-simple-counter/") Demo
   p
     a(href="https://github.com/syumai/react-vue-simple-counter/tree/minimum") Minimum
   p

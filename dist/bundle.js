@@ -655,6 +655,9 @@ Object.defineProperty(exports, "__esModule", {
 //
 //
 //
+//
+//
+//
 
 exports.default = {};
 
@@ -717,6 +720,17 @@ var staticRenderFns = [
         _c("h2", [_vm._v("Links")]),
         _c("h3", [_vm._v("2017.10.6 Gotanda.js")]),
         _c("h4", [_vm._v("Simple Counter Examples")]),
+        _c("p", [
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "https://syumai.github.io/react-vue-simple-counter/"
+              }
+            },
+            [_vm._v("Demo")]
+          )
+        ]),
         _c("p", [
           _c(
             "a",
