@@ -96,7 +96,7 @@ new _vue2.default({
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_1bd31e6e_hasScoped_true_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_1c3718fb_hasScoped_true_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(9);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
@@ -110,12 +110,12 @@ var normalizeComponent = __webpack_require__(7)
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-1bd31e6e"
+var __vue_scopeId__ = "data-v-1c3718fb"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue___default.a,
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_1bd31e6e_hasScoped_true_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_1c3718fb_hasScoped_true_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
   __vue_styles__,
   __vue_scopeId__,
   __vue_module_identifier__
@@ -131,9 +131,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-1bd31e6e", Component.options)
+    hotAPI.createRecord("data-v-1c3718fb", Component.options)
   } else {
-    hotAPI.reload("data-v-1bd31e6e", Component.options)
+    hotAPI.reload("data-v-1c3718fb", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -154,13 +154,13 @@ var content = __webpack_require__(3);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(5)("4157bb86", content, false);
+var update = __webpack_require__(5)("a6a39288", content, false);
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-1bd31e6e\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/sass-loader/lib/loader.js?indentedSyntax!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./App.vue", function() {
-     var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-1bd31e6e\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/sass-loader/lib/loader.js?indentedSyntax!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./App.vue");
+   module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-1c3718fb\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/sass-loader/lib/loader.js?indentedSyntax!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./App.vue", function() {
+     var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-1c3718fb\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/sass-loader/lib/loader.js?indentedSyntax!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./App.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -178,7 +178,7 @@ exports = module.exports = __webpack_require__(4)(undefined);
 
 
 // module
-exports.push([module.i, "\n.app.ui.segment[data-v-1bd31e6e] {\n  margin-top: 36px;\n}\n", ""]);
+exports.push([module.i, "\n.app.ui.segment[data-v-1c3718fb] {\n  margin-top: 36px;\n}\n", ""]);
 
 // exports
 
@@ -658,6 +658,23 @@ Object.defineProperty(exports, "__esModule", {
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 exports.default = {};
 
@@ -719,6 +736,11 @@ var staticRenderFns = [
         ]),
         _c("h2", [_vm._v("Links")]),
         _c("h3", [_vm._v("2017.10.6 Gotanda.js")]),
+        _c("p", [
+          _c("a", { attrs: { href: "https://goo.gl/3qFbAc" } }, [
+            _vm._v("Slide")
+          ])
+        ]),
         _c("h4", [_vm._v("Simple Counter Examples")]),
         _c("p", [
           _c(
@@ -731,6 +753,7 @@ var staticRenderFns = [
             [_vm._v("Demo")]
           )
         ]),
+        _c("h5", [_vm._v("Code")]),
         _c("p", [
           _c(
             "a",
@@ -754,6 +777,32 @@ var staticRenderFns = [
             },
             [_vm._v("With loader")]
           )
+        ]),
+        _c("h4", [_vm._v("Vue on React Router")]),
+        _c("p", [
+          _c(
+            "a",
+            {
+              attrs: {
+                href:
+                  "https://syumai.github.io/react-vue-examples/routers/react-router-vue/dist/index.html"
+              }
+            },
+            [_vm._v("Demo")]
+          )
+        ]),
+        _c("h5", [_vm._v("Code")]),
+        _c("p", [
+          _c(
+            "a",
+            {
+              attrs: {
+                href:
+                  "https://github.com/syumai/react-vue-examples/tree/master/routers/react-router-vue"
+              }
+            },
+            [_vm._v("Code")]
+          )
         ])
       ]
     )
@@ -765,7 +814,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-1bd31e6e", esExports)
+     require("vue-hot-reload-api").rerender("data-v-1c3718fb", esExports)
   }
 }
 
